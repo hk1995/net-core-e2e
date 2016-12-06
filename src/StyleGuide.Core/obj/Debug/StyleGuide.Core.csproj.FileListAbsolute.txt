@@ -1,0 +1,16 @@
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\bin\Debug\StyleGuide.Core.dll.config
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\bin\Debug\StyleGuide.Core.dll
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\bin\Debug\StyleGuide.Core.pdb
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\bin\Debug\DelegateDecompiler.dll
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\bin\Debug\DelegateDecompiler.EntityFramework.dll
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\bin\Debug\EntityFramework.dll
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\bin\Debug\LinqKit.dll
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\bin\Debug\Mono.Reflection.dll
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\bin\Debug\EntityFramework.xml
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\bin\Debug\LinqKit.xml
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\obj\Debug\StyleGuide.Core.dll
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\obj\Debug\StyleGuide.Core.pdb

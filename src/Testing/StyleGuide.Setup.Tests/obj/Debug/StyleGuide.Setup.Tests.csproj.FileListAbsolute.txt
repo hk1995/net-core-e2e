@@ -1,0 +1,5 @@
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\Testing\StyleGuide.Setup.Tests\bin\Debug\StyleGuide.Setup.Tests.dll
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\Testing\StyleGuide.Setup.Tests\bin\Debug\StyleGuide.Setup.Tests.pdb
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\Testing\StyleGuide.Setup.Tests\obj\Debug\StyleGuide.Setup.Tests.csprojResolveAssemblyReference.cache
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\Testing\StyleGuide.Setup.Tests\obj\Debug\StyleGuide.Setup.Tests.dll
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\Testing\StyleGuide.Setup.Tests\obj\Debug\StyleGuide.Setup.Tests.pdb

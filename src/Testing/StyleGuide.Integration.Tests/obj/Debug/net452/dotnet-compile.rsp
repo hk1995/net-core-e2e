@@ -1,0 +1,32 @@
+--temp-output:C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\Testing\StyleGuide.Integration.Tests\obj\Debug\net452\
+--out:C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\Testing\StyleGuide.Integration.Tests\bin\Debug\net452\StyleGuide.Integration.Tests.dll
+--define:DEBUG
+--define:TRACE
+--define:NET452
+--suppress-warning:CS1701
+--suppress-warning:CS1702
+--suppress-warning:CS1705
+--optimize:False
+--debug-type:full
+--output-name:StyleGuide.Integration.Tests
+--file-version:1.0.0.0
+--version:1.0.0.0
+--informational-version:1.0.0
+--target-framework:.NETFramework,Version=v4.5.2
+--reference:C:\Users\trevorc\.nuget\packages\FakeItEasy\2.3.1\lib\net40\FakeItEasy.dll
+--reference:C:\Users\trevorc\.nuget\packages\Fixie\2.0.0-alpha-0001\lib\net45\Fixie.dll
+--reference:C:\Users\trevorc\.nuget\packages\Fixie\2.0.0-alpha-0001\lib\net45\Mono.Cecil.Pdb.dll
+--reference:C:\Users\trevorc\.nuget\packages\Fixie\2.0.0-alpha-0001\lib\net45\Mono.Cecil.Rocks.dll
+--reference:C:\Users\trevorc\.nuget\packages\Fixie\2.0.0-alpha-0001\lib\net45\Mono.Cecil.dll
+--reference:C:\Users\trevorc\.nuget\packages\Fixie\2.0.0-alpha-0001\lib\net45\Newtonsoft.Json.dll
+--reference:C:\Users\trevorc\.nuget\packages\Fixie\2.0.0-alpha-0001\lib\net45\dotnet-test-fixie.exe
+--reference:C:\Users\trevorc\.nuget\packages\Respawn\0.1.0\lib\net45\Respawn.dll
+--reference:C:\Users\trevorc\.nuget\packages\Shouldly\2.8.2\lib\net451\Shouldly.dll
+--reference:C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\bin\Debug\StyleGuide.Core.dll
+--reference:C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Data\bin\Debug\StyleGuide.Data.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Data.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\mscorlib.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\System.Core.dll
+--reference:C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Microsoft.CSharp.dll
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\Testing\StyleGuide.Integration.Tests\Properties\AssemblyInfo.cs

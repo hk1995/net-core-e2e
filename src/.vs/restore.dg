@@ -1,1 +1,12 @@
+#:C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Web\StyleGuide.Web.xproj
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Web\StyleGuide.Web.xproj|C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\StyleGuide.Core.csproj
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Web\StyleGuide.Web.xproj|C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Data\StyleGuide.Data.csproj
 #:C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\Testing\StyleGuide.Integration.Tests\StyleGuide.Integration.Tests.xproj
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\Testing\StyleGuide.Integration.Tests\StyleGuide.Integration.Tests.xproj|C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\StyleGuide.Core.csproj
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\Testing\StyleGuide.Integration.Tests\StyleGuide.Integration.Tests.xproj|C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Data\StyleGuide.Data.csproj
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\Testing\StyleGuide.Integration.Tests\StyleGuide.Integration.Tests.xproj|C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Web\StyleGuide.Web.xproj
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Web\StyleGuide.Web.xproj|C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\StyleGuide.Core.csproj
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Web\StyleGuide.Web.xproj|C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Data\StyleGuide.Data.csproj
+#:C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\Testing\StyleGuide.Unit.Tests\StyleGuide.Unit.Tests.xproj
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\Testing\StyleGuide.Unit.Tests\StyleGuide.Unit.Tests.xproj|C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Core\StyleGuide.Core.csproj
+C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\Testing\StyleGuide.Unit.Tests\StyleGuide.Unit.Tests.xproj|C:\Users\trevorc\Documents\Repositories\net-core-styleguide\src\StyleGuide.Data\StyleGuide.Data.csproj
