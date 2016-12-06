@@ -21,7 +21,7 @@ In **no way** am I personally taking credit for the contents of this style guide
 
 ###Solution Layout
 A typical N-Tier type layout might look something like this.
-'''
+,,,
 project
 |    README.md
 |
@@ -33,4 +33,4 @@ project
      |    App.Framework
      |    
      |____Testing
-'''
+,,,
