@@ -33,8 +33,8 @@ The domain folder will contain only one level of sub-folders that represent the 
 
 #### StyleGuide.Data
 For smaller solutions this project could be combined into the [core](*StyleGuid.Core) project.  This however can be problematic for 2 reasons.
-1. Small project have a way of growing very fast.
-2. EF has gone through quite a few changes over the years and is currently being completely [rewritten](*https://github.com/aspnet/EntityFramework/wiki/Roadmap).  Having as few projects directly dependant on EF will make upgrading that much easier.
+1.  Small project have a way of growing very fast.
+2.  EF has gone through quite a few changes over the years and is currently being completely [rewritten](*https://github.com/aspnet/EntityFramework/wiki/Roadmap).  Having as few projects directly dependant on EF will make upgrading that much easier.
 
 This project will contain our EF6 mapping, migration, configuration, and DbContext classes.
 
