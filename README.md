@@ -9,14 +9,14 @@ This style guide is a set of best practices based on the many mistakes I have ma
 
 In **no way** am I personally taking credit for the contents of this style guide. These are all the things I have learned by standing on the proverbial *shoulders of giants*.  I will do my best to attribute others as best I can.
 ## Table of Contents
-1. [Solution Layout](*Solution Layout)
-2. [Framework Versioning](*Framework Versioning)
-3. [Entity Framework](*Entity Framework)
-4. [Domain Driven Design](*Domain Driven Design)
-5. [Startup Pipeline](*Startup Pipeline)
-6. [MediatR](*MediatR)
-7. [Fluent Validation](*Fluent Validation)
-8. [Unit Tests](*Unit Tests)
+1. [Solution Layout](#solution-layout)
+2. [Framework Versioning](#framework-versioning)
+3. [Entity Framework](#entity-framework)
+4. [Domain Driven Design](#domain-driven-design)
+5. [Startup Pipeline](#startup-pipeline)
+6. [MediatR](#mediatr)
+7. [Fluent Validation](#fluent-validation)
+8. [Unit Tests](#unit-tests)
 9. [Integration Tests](#integration-tests)
 
 ###Solution Layout
