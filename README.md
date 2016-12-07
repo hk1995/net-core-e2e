@@ -19,6 +19,7 @@ In **no way** am I personally taking credit for the contents of this style guide
 8. [Fluent Validation](#fluent-validation)
 9. [Unit Tests](#unit-tests)
 10. [Integration Tests](#integration-tests)
+
 ## The Project
 Our goal is to develop a distributed simple social network api.  No, we are not building the next Facebook.  This project will be much simpler.  The project requirments are the following:
 1. Each site has users. Users can:
