@@ -31,7 +31,7 @@ Our goal is to develop a distributed simple social network api.  No, we are not 
 2. Each site has user groups.
 3. Each site can operate in 2 modes:
   * Independantly
-  *Global
+  * Global
 
 ## Solution Layout
 .Net Core (as it is currently named) has gone through several iterations [and appears to be preparing for yet another one](https://docs.microsoft.com/en-us/dotnet/articles/core/tools/project-json). What we want to do is keep our solution as simple as possible to allow for inevitable changes to the framework yet still robust enough for larger code bases and future upgrades.
