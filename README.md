@@ -24,14 +24,14 @@ In **no way** am I personally taking credit for the contents of this style guide
 Our goal is to develop a distributed simple social network api.  No, we are not building the next Facebook.  This project will be much simpler.  The project requirments are the following:
 
 1. Each site has users. Users can:
-··* Create/Edit a simple profile
-··* Upload images
-··* Post comments
-··* Reply to comments
+  * Create/Edit a simple profile
+  * Upload images
+  * Post comments
+  * Reply to comments
 2. Each site has user groups.
 3. Each site can operate in 2 modes:
- ··* Independantly
- ··* Global
+  * Independantly
+  *Global
 
 ## Solution Layout
 .Net Core (as it is currently named) has gone through several iterations [and appears to be preparing for yet another one](https://docs.microsoft.com/en-us/dotnet/articles/core/tools/project-json). What we want to do is keep our solution as simple as possible to allow for inevitable changes to the framework yet still robust enough for larger code bases and future upgrades.
