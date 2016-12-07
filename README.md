@@ -8,6 +8,10 @@ I know your pain.
 This style guide is a set of best practices based on the many mistakes I have made in the past.  If you are looking for more than a trivial project example to get your project started then this may be what you are looking for.
 
 In **no way** am I personally taking credit for the contents of this style guide. These are all the things I have learned by standing on the proverbial *shoulders of giants*.  I will do my best to attribute others as best I can.
+## Acknowledgments
+##### Jimmy Bogard
+##### Julie Lerman
+##### Eric Evans
 ## Table of Contents
 1. [The Project](#the-project)
 2. [Solution Layout](#solution-layout)
