@@ -24,10 +24,10 @@ In **no way** am I personally taking credit for the contents of this style guide
 Our goal is to develop a distributed simple social network api.  No, we are not building the next Facebook.  This project will be much simpler.  The project requirments are the following:
 
 1. Each site has users. Users can:
-..* Create/Edit a simple profile
-..* Upload images
-..* Post comments
-..* Reply to comments
+..* Create/Edit a simple profile.
+..* Upload images.
+..* Post comments.
+..* Reply to comments.
 2. Each site has user groups.
 3. Each site can operate in 2 modes:
 ..* Independantly
