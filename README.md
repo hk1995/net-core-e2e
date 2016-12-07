@@ -1,7 +1,7 @@
 # net-core-styleguide
 An opinionated .net core based style guide.
 ## Purpose
-Getting a project out the door can be deceptively difficult.  Usually about half way into it you realize you may have bit off more than you can chew.  Things get further excerbated when you realize you haven't done enough testing or you arent handling errors properly or your multi-tier architecture is turning into a plate of spaghetti.
+Getting a project out the door can be deceptively difficult.  Usually about half way into it you realize you may have bit off more than you can chew.  Things get further exacerbated when you realize you haven't done enough testing or you arent handling errors properly or your multi-tier architecture is turning into a plate of spaghetti.
 
 I know your pain.
 
@@ -9,15 +9,27 @@ This style guide is a set of best practices based on the many mistakes I have ma
 
 In **no way** am I personally taking credit for the contents of this style guide. These are all the things I have learned by standing on the proverbial *shoulders of giants*.  I will do my best to attribute others as best I can.
 ## Table of Contents
-1. [Solution Layout](#solution-layout)
-2. [Framework Versioning](#framework-versioning)
-3. [Entity Framework](#entity-framework)
-4. [Domain Driven Design](#domain-driven-design)
-5. [Startup Pipeline](#startup-pipeline)
-6. [MediatR](#mediatr)
-7. [Fluent Validation](#fluent-validation)
-8. [Unit Tests](#unit-tests)
-9. [Integration Tests](#integration-tests)
+1. [The Project](#the-project)
+2. [Solution Layout](#solution-layout)
+3. [Framework Versioning](#framework-versioning)
+4. [Entity Framework](#entity-framework)
+5. [Domain Driven Design](#domain-driven-design)
+6. [Startup Pipeline](#startup-pipeline)
+7. [MediatR](#mediatr)
+8. [Fluent Validation](#fluent-validation)
+9. [Unit Tests](#unit-tests)
+10. [Integration Tests](#integration-tests)
+## The Project
+Our goal is to develop a distributed simple social network api.  No, we are not building the next Facebook.  This project will be much simpler.  The project requirments are the following:
+1. Each site has users. Users can:
+..* Create/Edit a simple profile
+..* Upload images
+..* Post comments
+..* Reply to comments
+2. Each site has user groups.
+3. Each site can operate in 2 modes:
+..* Independantly
+..* Global
 
 ## Solution Layout
 .Net Core (as it is currently named) has gone through several iterations [and appears to be preparing for yet another one](https://docs.microsoft.com/en-us/dotnet/articles/core/tools/project-json). What we want to do is keep our solution as simple as possible to allow for inevitable changes to the framework yet still robust enough for larger code bases and future upgrades.
