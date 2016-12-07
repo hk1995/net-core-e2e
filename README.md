@@ -43,6 +43,8 @@ The one big gotcha that I discovered here was that for your project to compile c
 ### StyleGuide.Core
 This project will contain our domain classes, enums, and value objects.  Although this project references Entity Framework, it does so only because we also are referencing Delegate Decompiler which has a dependency on EF.  As you will see later, Delegate Decompiler makes working with computed properties a breeze.
 
+If you don't really see a need for computed properties you can always leave these dependencies out.  The big take away is that we want our domain models to have as little dependency on our ORM as possible.  This will make re-factoring easier down the road.
+
 The domain folder will contain only one level of sub-folders that represent the aggregate roots the domain.  These subfolders will house the domain classes.
 
 ### StyleGuide.Data
