@@ -62,6 +62,8 @@ This project will contain our EF6 mapping, migration, configuration, and DbConte
 
 ## Entity Framework
 
+add-migration init -StartUpProjectName StyleGuide.Data
+
 ## Domain Driven Design
 
 ## Startup Pipeline
