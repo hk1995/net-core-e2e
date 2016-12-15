@@ -77,6 +77,6 @@ add-migration init -StartUpProjectName StyleGuide.Data
 ## Fluent Validation
 
 ## Unit Tests
-
+Code should be testable but not written for tests.  
 ## Integration Tests
 
