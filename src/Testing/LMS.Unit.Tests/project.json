@@ -11,23 +11,16 @@
   "dependencies": {
     "Fixie": "2.0.0-alpha-0001",
     "Shouldly": "2.8.2",
-    "Respawn": "0.1.0",
-    "FakeItEasy": "2.3.1",
-    "StyleGuide.Web": "1.0.0"
+    "FluentValidation.AspNetCore": "6.4.0-beta6",
+    "FakeItEasy": "2.3.1"
   },
   "testRunner": "fixie",
   "frameworks": {
     "net452": {
       "dependencies": {
-        "StyleGuide.Core": {
-          "target": "project"
-        },
-        "StyleGuide.Data": {
+        "LMS.Core": {
           "target": "project"
         }
-      },
-      "frameworkAssemblies": {
-        "System.Data": "4.0.0.0"
       }
     }
   }

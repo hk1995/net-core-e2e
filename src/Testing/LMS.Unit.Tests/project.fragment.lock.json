@@ -1,7 +1,7 @@
 {
   "version": 2,
   "exports": {
-    "StyleGuide.Core/1.0.0": {
+    "LMS.Core/1.0.0": {
       "type": "project",
       "framework": ".NETFramework,Version=v4.5.2",
       "compile": {
@@ -19,25 +19,6 @@
       },
       "contentFiles": {
         "bin/Debug/StyleGuide.Core.pdb": {
-          "buildAction": "None",
-          "codeLanguage": "any",
-          "copyToOutput": true
-        }
-      }
-    },
-    "StyleGuide.Data/1.0.0": {
-      "type": "project",
-      "framework": ".NETFramework,Version=v4.5.2",
-      "compile": {
-        "bin/Debug/StyleGuide.Data.dll": {}
-      },
-      "runtime": {
-        "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.SqlServer.dll": {},
-        "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll": {},
-        "bin/Debug/StyleGuide.Data.dll": {}
-      },
-      "contentFiles": {
-        "bin/Debug/StyleGuide.Data.pdb": {
           "buildAction": "None",
           "codeLanguage": "any",
           "copyToOutput": true

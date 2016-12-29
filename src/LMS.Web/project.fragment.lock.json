@@ -1,7 +1,7 @@
 {
   "version": 2,
   "exports": {
-    "StyleGuide.Core/1.0.0": {
+    "LMS.Core/1.0.0": {
       "type": "project",
       "framework": ".NETFramework,Version=v4.5.2",
       "compile": {
@@ -25,7 +25,7 @@
         }
       }
     },
-    "StyleGuide.Data/1.0.0": {
+    "LMS.Data/1.0.0": {
       "type": "project",
       "framework": ".NETFramework,Version=v4.5.2",
       "compile": {
