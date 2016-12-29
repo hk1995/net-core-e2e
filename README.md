@@ -80,6 +80,7 @@ The meat of our project will be contained here.  This project will contain:
 3. Validation
 4. CQRS
 
+You can view the basic layout from [this](https://github.com/trevorchunestudy/net-core-styleguide/tree/4684cc32a125683b566159158766e8d4fac2be5f) commit.
 ## Framework Versioning
 
 ## Entity Framework
