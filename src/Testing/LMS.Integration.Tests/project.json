@@ -17,7 +17,7 @@
   },
   "testRunner": "fixie",
   "frameworks": {
-    "net452": {
+    "net461": {
       "dependencies": {
         "LMS.Core": {
           "target": "project"
