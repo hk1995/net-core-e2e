@@ -7,8 +7,8 @@
     <ProjectGuid>{4175471A-2BC0-4615-8CF5-0D58559A070A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StyleGuide.Core</RootNamespace>
-    <AssemblyName>StyleGuide.Core</AssemblyName>
+    <RootNamespace>LMS.Core</RootNamespace>
+    <AssemblyName>LMS.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -69,11 +69,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain\Entity.cs" />
+    <Compile Include="Domain\Management\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Domain\Enrollment\" />
+    <Folder Include="Domain\Training\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="ValueObjects\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

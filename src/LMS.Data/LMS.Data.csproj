@@ -7,8 +7,8 @@
     <ProjectGuid>{74349E46-3A57-43AF-B395-E0C7F77C47BC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StyleGuide.Data</RootNamespace>
-    <AssemblyName>StyleGuide.Data</AssemblyName>
+    <RootNamespace>LMS.Data</RootNamespace>
+    <AssemblyName>LMS.Data</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
