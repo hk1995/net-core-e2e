@@ -49,11 +49,32 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LmsContext.cs" />
+    <Compile Include="LmsContextFactory.cs" />
+    <Compile Include="Migrations\201612302229310_init.cs" />
+    <Compile Include="Migrations\201612302229310_init.Designer.cs">
+      <DependentUpon>201612302229310_init.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Mappings\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LMS.Core\LMS.Core.csproj">
+      <Project>{4175471a-2bc0-4615-8cf5-0d58559a070a}</Project>
+      <Name>LMS.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201612302229310_init.resx">
+      <DependentUpon>201612302229310_init.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

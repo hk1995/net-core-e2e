@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace LMS.Core.Domain
 {
@@ -9,6 +10,7 @@ namespace LMS.Core.Domain
             CreatedOn = DateTime.UtcNow;
         }
 
+        [Key]
         public long Id { get; set; }
         public DateTime CreatedOn { get; private set; }
         public bool IsDeleted { get; private set; }
