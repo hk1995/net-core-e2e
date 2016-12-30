@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace LMS.Core.Domain
 {
@@ -12,7 +13,10 @@ namespace LMS.Core.Domain
 
         [Key]
         public long Id { get; set; }
+
+        [Column(TypeName = "datetime2")]
         public DateTime CreatedOn { get; private set; }
+
         public bool IsDeleted { get; private set; }
 
         public void SoftDelete()
