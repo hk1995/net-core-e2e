@@ -5,7 +5,7 @@
       "type": "project",
       "framework": ".NETFramework,Version=v4.5.2",
       "compile": {
-        "bin/Debug/StyleGuide.Core.dll": {}
+        "bin/Debug/LMS.Core.dll": {}
       },
       "runtime": {
         "../packages/DelegateDecompiler.0.20.0/lib/net40-Client/DelegateDecompiler.dll": {},
@@ -15,10 +15,10 @@
         "../packages/LinqKit.1.1.8.0/lib/net452/LinqKit.dll": {},
         "../packages/Mono.Reflection.1.1.0.0/lib/Mono.Reflection.dll": {},
         "../packages/Newtonsoft.Json.9.0.1/lib/net45/Newtonsoft.Json.dll": {},
-        "bin/Debug/StyleGuide.Core.dll": {}
+        "bin/Debug/LMS.Core.dll": {}
       },
       "contentFiles": {
-        "bin/Debug/StyleGuide.Core.pdb": {
+        "bin/Debug/LMS.Core.pdb": {
           "buildAction": "None",
           "codeLanguage": "any",
           "copyToOutput": true
@@ -29,15 +29,15 @@
       "type": "project",
       "framework": ".NETFramework,Version=v4.5.2",
       "compile": {
-        "bin/Debug/StyleGuide.Data.dll": {}
+        "bin/Debug/LMS.Data.dll": {}
       },
       "runtime": {
         "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.SqlServer.dll": {},
         "../packages/EntityFramework.6.1.3/lib/net45/EntityFramework.dll": {},
-        "bin/Debug/StyleGuide.Data.dll": {}
+        "bin/Debug/LMS.Data.dll": {}
       },
       "contentFiles": {
-        "bin/Debug/StyleGuide.Data.pdb": {
+        "bin/Debug/LMS.Data.pdb": {
           "buildAction": "None",
           "codeLanguage": "any",
           "copyToOutput": true
