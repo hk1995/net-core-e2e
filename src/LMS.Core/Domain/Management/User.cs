@@ -15,7 +15,7 @@ namespace LMS.Core.Domain.Management
         [MaxLength(100)]
         public string AuthId { get; private set; }
 
-        public User Create(string authId)
+        public static User Create(string authId)
         {
             return new User(authId);
         }

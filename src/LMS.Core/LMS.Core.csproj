@@ -72,6 +72,7 @@
     <Compile Include="Domain\Entity.cs" />
     <Compile Include="Domain\Management\User.cs" />
     <Compile Include="Enums\Enumeration.cs" />
+    <Compile Include="Extensions\QueryExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -81,7 +82,6 @@
   <ItemGroup>
     <Folder Include="Domain\Enrollment\" />
     <Folder Include="Domain\Training\" />
-    <Folder Include="Extensions\" />
     <Folder Include="ValueObjects\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
