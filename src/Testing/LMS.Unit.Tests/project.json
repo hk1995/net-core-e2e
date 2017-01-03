@@ -11,8 +11,8 @@
   "dependencies": {
     "Fixie": "2.0.0-alpha-0001",
     "Shouldly": "2.8.2",
-    "FluentValidation.AspNetCore": "6.4.0-beta6",
-    "FakeItEasy": "2.3.1"
+    "FluentValidation.AspNetCore": "6.4.0-beta9",
+    "FakeItEasy": "2.3.2"
   },
   "testRunner": "fixie",
   "frameworks": {
