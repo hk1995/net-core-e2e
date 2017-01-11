@@ -25,6 +25,9 @@
         "LMS.Data": {
           "target": "project"
         }
+      },
+      "frameworkAssemblies": {
+        "System.Data": "4.0.0.0"
       }
     }
   }
