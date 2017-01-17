@@ -6,6 +6,8 @@ namespace LMS.Integration.Tests
     {
         public FullSliceConvention()
         {
+            var env = Options<CliArgs>();
+
             Classes
                 .IsBddStyleClassNameOrEndsWithTests()
                 .HasNoClassAttributes();
@@ -20,7 +22,7 @@ namespace LMS.Integration.Tests
                 mi =>
                     (mi.GetParameters().Length == 1) &&
                     (mi.GetParameters()[0].ParameterType == typeof(FullSliceFixture))
-                        ? new[] { new[] { new FullSliceFixture() } }
+                        ? new[] { new[] { new FullSliceFixture(env.Env) } }
                         : null);
 
             FixtureExecution

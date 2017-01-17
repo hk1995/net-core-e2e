@@ -8,11 +8,12 @@ namespace LMS.Integration.Tests
 {
     public class FullSliceFixture : BaseSliceFixture
     {
-        static FullSliceFixture()
+        public FullSliceFixture(string env = null)
         {
             var host = A.Fake<IHostingEnvironment>();
-
             A.CallTo(() => host.ContentRootPath).Returns(Directory.GetCurrentDirectory());
+            if (!string.IsNullOrEmpty(env))
+                host.EnvironmentName = env;
 
             var startup = new Startup(host);
             _configuration = startup.Configuration;
