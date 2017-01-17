@@ -5,6 +5,6 @@ Write-Host "Setting db server context"
 $context = New-AzureSqlDatabaseServerContext -ServerName val -Credential $creds
 
 Write-Host "Creating new test database 'bing-bong'"
-New-AzureSqlDatabase -Context $context -DatabaseName bing-bong
+$currentDatabse = New-AzureSqlDatabase -Context $context -DatabaseName bing-bong -Edition Basic
 
 Write-Host "'bing-bong' deployed. Done"
