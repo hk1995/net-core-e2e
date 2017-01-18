@@ -4,7 +4,7 @@ $creds = new-object System.Management.Automation.PSCredential("trevor-admin", ("
 Write-Host "Setting db context"
 $context = New-AzureSqlDatabaseServerContext -ServerName "val" -Credential $creds
 
-Get-AzureSqlDatabaseServerContext
+Get-AzureSqlDatabaseServer
 
 Write-Host "Creating new test database 'bing-bong'"
 New-AzureSqlDatabase $context -DatabaseName bing-bong -Edition Basic
