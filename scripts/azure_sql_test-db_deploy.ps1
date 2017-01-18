@@ -1,3 +1,5 @@
+Select-AzureSubscription -Default Pay-As-You-Go
+
 Write-Host "Setting credentials"
 $creds = new-object System.Management.Automation.PSCredential("trevor-admin", ("U{%k?aQ'J23/FBhM"  | ConvertTo-SecureString -asPlainText -Force))
 
