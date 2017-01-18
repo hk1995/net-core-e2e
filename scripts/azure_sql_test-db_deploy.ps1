@@ -1,8 +1,8 @@
 Write-Host "Setting credentials"
 $serverAdmin = "trevor-admin"
 $serverPassword = "U{%k?aQ'J23/FBhM"
-$securePassword = ConvertTo-SecureString -String $serverPassword -AsPlainText -Force
-$creds = New-Object System.Management.Automation.PSCredential($serverAdmin, $securePassword)
+$securePassword = ConvertTo-SecureString -String $serverPassword -asPlainText -Force
+$creds = new-object System.Management.Automation.PSCredential($serverAdmin, $securePassword)
 
 Write-Host "Setting db context"
 $context = New-AzureSqlDatabaseServerContext -ServerName "val" -Credential $creds
