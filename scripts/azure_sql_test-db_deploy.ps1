@@ -2,7 +2,7 @@ param([string]$resourceGroupName, [string]$sqlServerName,  [string]$databaseName
 
 Write-Host "Determining if database already exists.."
 $currentDatabase = Get-AzureRmSqlDatabase -ResourceGroupName $resourceGroupName `
- -ServerName $sqlServerName -DatabaseName $databaseName
+ -ServerName $sqlServerName -DatabaseName $databaseName -erroraction 'silentlycontinue'
 if(!$currentDatabase)
 {
 	Write-Host "Database $databaseName does not exist"
