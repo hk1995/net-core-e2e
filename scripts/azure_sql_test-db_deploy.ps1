@@ -1,12 +1,15 @@
 Write-Host "Setting credentials"
-$resourceGroupName = "VAL"
-$sqlServerName = "val"
-$databaseName = "bing-bongg"
-$databaseEdition = "Basic"
+param
+(
+	[string] $resourceGroupName,
+	[string] $sqlServerName,
+	[string] $databaseName,
+	[string] $databaseEdition
+)
 
-Write-Host "Creating a $databaseEdition database $databaseName on SQL Server $databaseName"
+Write-Host "Creating a '$databaseEdition' edition database, '$databaseName' on SQL Server '$sqlServerName' in Resource Group '$resourceGroupName'."
 $currentDatabase = New-AzureRmSqlDatabase -ResourceGroupName $resourceGroupName `
  -ServerName $sqlServerName -DatabaseName $databaseName `
  -Edition $databaseEdition 
 
-Write-Host "databaseName database created"
+Write-Host "'$databaseName' database created."
