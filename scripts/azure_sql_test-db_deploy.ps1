@@ -1,10 +1,13 @@
 Write-Host "Setting credentials"
-$creds = new-object System.Management.Automation.PSCredential("trevor-admin", ("U{%k?aQ'J23/FBhM" | ConvertTo-SecureString -asPlainText -Force))
+$serverAdmin = "trevor-admin"
+$serverPassword = "U{%k?aQ'J23/FBhM"
+$securePassword = ConvertTo-SecureString -String $serverPassword -AsPlainText -Force
+$creds = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $serverAdmin $securePassword
 
-Write-Host "Setting db server context"
-$context = New-AzureSqlDatabaseServerContext -ServerName val -Credential $creds
+Write-Host "Setting db context"
+$context = New-AzureSqlDatabaseServerContext -ServerName "val" -Credential $creds
 
 Write-Host "Creating new test database 'bing-bong'"
-$currentDatabse = New-AzureSqlDatabase -Context $context -DatabaseName bing-bong -Edition Basic
+$currentDatabase = New-AzureSqlDatabase -DatabaseName "bing-bong" -Edition "Basic" -ConnectionContext $context
 
 Write-Host "'bing-bong' deployed. Done"
