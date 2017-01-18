@@ -4,7 +4,8 @@
     "debugType": "full",
     "copyToOutput": {
       "include": [
-        "appsettings.json"
+        "appsettings.json",
+        "appsettings.Development.json"
       ]
     }
   },
