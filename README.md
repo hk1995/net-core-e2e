@@ -9,16 +9,18 @@ This style guide is a set of best practices based on the many mistakes I have ma
 
 This project will try to adhere to Domain Driven Design(DDD) principles, Test Driven Development(TDD) *light*, and Command Query Responsibility Segregation(CQRS) patterns. TDD *light* is a term I use.  I try and write out the necessary tests as soon as I can wrap my head around the specifics of a feature.  I am not a TDD purist.
 
+This project is documented in the wiki. TODO: explain how the project is setup as a step-by-step via dev branch commits.
+
 **Note:** This is a monolith based project that uses a single relational database for persistence.  At some point I will create a new repo and refactor this project as a micro services based project.
 
 In **no way** am I personally taking credit for the contents of this style guide. These are all the things I have learned by standing on the proverbial *shoulders of giants*.  I will do my best to attribute others as best I can.
 ## Acknowledgments
+TODO: add links and examples for:
 ##### Jimmy Bogard
 ##### Julie Lerman
 ##### Eric Evans
-## Table of Contents
-1. [The Project](#the-project)
-2. [Solution Layout](#solution-layout)
+##### Patrick Lioi
+##### Rick Strahl
 
 ## The Project
 Our goal is to develop a learning management system(LMS) API.  This API will be consumed by an angular 2 SPA and in the future a native iOS and Android mobile app.  The project requirments are the following:
@@ -40,11 +42,4 @@ Our goal is to develop a learning management system(LMS) API.  This API will be 
   * Take modules
   * View their progress and scores
 
-
-## Solution Layout
-.Net Core (as it is currently named) has gone through several iterations [and appears to be preparing for yet another one](https://docs.microsoft.com/en-us/dotnet/articles/core/tools/project-json). What we want to do is keep our solution as simple as possible to allow for inevitable changes to the framework yet still robust enough for larger code bases and future upgrades.
-
-The one big gotcha that I discovered here was that for your project to compile correctly (especially if you are using a CI build server) all of your projects need to be in a *single* parent folder.  For this project we will be putting all projects in *src* folder.  We will also create a *Testing* folder that resides in the *src* folder as well. 
-
-.Net Core solutions contain a global.json file that tells the compiler which folders to look in for compiling.
-
+TODO: complete the rest of  the project requirements outline.
