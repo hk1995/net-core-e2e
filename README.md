@@ -1,5 +1,5 @@
-# net-core-styleguide
-An opinionated .net core based style guide.
+# net-core-e2e
+An opinionated non-trivial .net core end to end sample project
 ## Purpose
 Getting a project out the door can be deceptively difficult.  Usually about half way into it you realize you may have bit off more than you can chew.  Things get further exacerbated when you realize you haven't done enough testing or you arent handling errors properly or your multi-tier architecture is turning into a plate of spaghetti.
 
@@ -9,7 +9,7 @@ This style guide is a set of best practices based on the many mistakes I have ma
 
 This project will try to adhere to Domain Driven Design(DDD) principles, Test Driven Development(TDD) *light*, and Command Query Responsibility Segregation(CQRS) patterns. TDD *light* is a term I use.  I try and write out the necessary tests as soon as I can wrap my head around the specifics of a feature.  I am not a TDD purist.
 
-This project is documented in the wiki. TODO: explain how the project is setup as a step-by-step via dev branch commits.
+This project is documented in the [wiki](https://github.com/trevorchunestudy/net-core-e2e/wiki). TODO: explain how the project is setup as a step-by-step via dev branch commits.
 
 **Note:** This is a monolith based project that uses a single relational database for persistence.  At some point I will create a new repo and refactor this project as a micro services based project.
 
