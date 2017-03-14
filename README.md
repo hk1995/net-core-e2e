@@ -5,15 +5,15 @@ Getting a project out the door can be deceptively difficult.  Usually about half
 
 I know your pain.
 
-This style guide is a set of best practices based on the many mistakes I have made in the past.  If you are looking for more than a trivial project example to get your project started then this may be what you are looking for.
+This project is a set of best practices based on the many mistakes I have made in the past and the patterns I have learned to prevent these mistakes from happening again.  If you are looking for more than a trivial project example to get your project started then this may be what you are looking for.
 
 This project will try to adhere to Domain Driven Design(DDD) principles, Test Driven Development(TDD) *light*, and Command Query Responsibility Segregation(CQRS) patterns. TDD *light* is a term I use.  I try and write out the necessary tests as soon as I can wrap my head around the specifics of a feature.  I am not a TDD purist.
 
-This project is documented in the [wiki](https://github.com/trevorchunestudy/net-core-e2e/wiki). TODO: explain how the project is setup as a step-by-step via dev branch commits.
+This project is documented in the [wiki](https://github.com/trevorchunestudy/net-core-e2e/wiki). Most of the wiki sections have a direct link to the commit for that section so you can follow the progress as I move along.
 
 **Note:** This is a monolith based project that uses a single relational database for persistence.  At some point I will create a new repo and refactor this project as a micro services based project.
 
-In **no way** am I personally taking credit for the contents of this style guide. These are all the things I have learned by standing on the proverbial *shoulders of giants*.  I will do my best to attribute others as best I can.
+In **no way** am I personally taking credit for everthing in this project. These are all the things I have learned by standing on the proverbial *shoulders of giants*.  I will do my best to attribute others as best I can.
 ## Acknowledgments
 
 ##### Jimmy Bogard
