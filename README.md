@@ -15,8 +15,13 @@ This project is documented in the [wiki](https://github.com/trevorchunestudy/net
 
 In **no way** am I personally taking credit for the contents of this style guide. These are all the things I have learned by standing on the proverbial *shoulders of giants*.  I will do my best to attribute others as best I can.
 ## Acknowledgments
-TODO: add links and examples for:
+
 ##### Jimmy Bogard
+* [A simple explanation of the CQRS/MediatR implementation patterns that solves the 'GetBy*' service soup](https://lostechies.com/jimmybogard/2016/10/27/cqrsmediatr-implementation-patterns/)
+* [The MediatR library](https://github.com/jbogard/MediatR)
+* [A testing pattern that will change your life!](https://lostechies.com/jimmybogard/2016/10/24/vertical-slice-test-fixtures-for-mediatr-and-asp-net-core/)
+* [Jimmys new site](https://jimmybogard.com/)
+
 ##### Julie Lerman
 ##### Eric Evans
 ##### Patrick Lioi
