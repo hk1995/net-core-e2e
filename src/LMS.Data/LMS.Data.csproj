@@ -53,6 +53,7 @@
     <Compile Include="DbInitialize.cs" />
     <Compile Include="LmsContext.cs" />
     <Compile Include="LmsContextFactory.cs" />
+    <Compile Include="Mappings\CurriculumUserMap.cs" />
     <Compile Include="Migrations\201612302229310_init.cs" />
     <Compile Include="Migrations\201612302229310_init.Designer.cs">
       <DependentUpon>201612302229310_init.cs</DependentUpon>
@@ -61,6 +62,10 @@
     <Compile Include="Migrations\201612302304322_Entity_CreatedOn_DateTime2.Designer.cs">
       <DependentUpon>201612302304322_Entity_CreatedOn_DateTime2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703141943286_CurriculumRoot.cs" />
+    <Compile Include="Migrations\201703141943286_CurriculumRoot.Designer.cs">
+      <DependentUpon>201703141943286_CurriculumRoot.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -68,9 +73,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Mappings\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\LMS.Core\LMS.Core.csproj">
       <Project>{4175471a-2bc0-4615-8cf5-0d58559a070a}</Project>
@@ -83,6 +86,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201612302304322_Entity_CreatedOn_DateTime2.resx">
       <DependentUpon>201612302304322_Entity_CreatedOn_DateTime2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703141943286_CurriculumRoot.resx">
+      <DependentUpon>201703141943286_CurriculumRoot.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
