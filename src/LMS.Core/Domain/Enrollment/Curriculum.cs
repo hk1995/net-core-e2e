@@ -56,7 +56,7 @@ namespace LMS.Core.Domain.Enrollment
         /// </summary>
         /// <param name="userIds">User entity ids</param>
         /// <returns>ICollection CurriculumUser</returns>
-        public ICollection<CurriculumUser> CreateUsers(IEnumerable<long> userIds)
+        public ICollection<CurriculumUser> AddUsers(IEnumerable<long> userIds)
         {
             if (userIds == null)
                 return CurriculumUsers;
@@ -75,7 +75,7 @@ namespace LMS.Core.Domain.Enrollment
         /// Updates this collection of CurriculumUsers that are NOT part of this CurriculumUsers collection
         /// </summary>
         /// <param name="curriculumUsers">ICollection CurriculumUser</param>
-        public void UpdateUsers(ICollection<CurriculumUser> curriculumUsers)
+        public void UpdateUserCollection(ICollection<CurriculumUser> curriculumUsers)
         {
             if (curriculumUsers == null || !curriculumUsers.Any())
                 return;
@@ -92,7 +92,7 @@ namespace LMS.Core.Domain.Enrollment
         /// </summary>
         /// <param name="userIds">User entity ids</param>
         /// <returns>ICollection CurriculumUser</returns>
-        public ICollection<CurriculumUser> DeleteUsers(IEnumerable<long> userIds)
+        public ICollection<CurriculumUser> RemoveUsers(IEnumerable<long> userIds)
         {
             if (userIds == null || CurriculumUsers.Count < 1)
                 return null;
