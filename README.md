@@ -23,9 +23,18 @@ In **no way** am I personally taking credit for the contents of this style guide
 * [Jimmys new site](https://jimmybogard.com/)
 
 ##### Julie Lerman
+* [The 'everything Entity Framework' expert's blog.](http://thedatafarm.com/blog/)
+* [A great course on bounded contexts and EF.](https://www.pluralsight.com/courses/entity-framework-enterprise-update)
+
 ##### Eric Evans
+* [The blue book that should be on every developers desk.](https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215)
+
 ##### Patrick Lioi
+* [Testing guru on Los Techies.](https://lostechies.com/patricklioi/)
+* [Fixie testing library](https://github.com/fixie/fixie)
+
 ##### Rick Strahl
+* [A great resource for anything .net.](https://weblog.west-wind.com/)
 
 ## The Project
 Our goal is to develop a learning management system(LMS) API.  This API will be consumed by an angular 2 SPA and in the future a native iOS and Android mobile app.  The project requirments are the following:
